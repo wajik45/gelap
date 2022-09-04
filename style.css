@@ -1,0 +1,106 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	transition: 1s background-color;
+}
+.container {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+.kotak {
+	width: 100px;
+	height: 50px;
+	background-color: #333;
+	border-radius: 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+	transition: 1s background-color;
+	align-self: center;
+}
+.k-bulan, .k-matahari {
+	cursor: pointer;
+}
+.k-bulan {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	display: flex;
+}
+.k-matahari {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	display: flex;
+}
+.bulan, .matahari {
+	transition: 1s opacity;
+}
+.bulan {
+	width: 20px;
+	height: 20px;
+	background-color: #333;
+	border-radius: 50%;
+	margin: auto;
+	border-radius: 0 50% 50% 50%;
+	position: relative;
+}
+.matahari {
+	width: 20px;
+	height: 20px;
+	background-color: yellow;
+	border-radius: 50%;
+	margin: auto;
+}
+.bulet {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #fff;
+	border-radius: 50%;
+	transition: 1s;
+	border: 5px solid #333;
+}
+
+/* hias */
+
+.bulan .hias {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-color: #333;
+	border-radius: 50% 50% 50% 50%;
+	top: -7px;
+	left: -7px;
+	transition: 1s background-color;
+}
+
+/* sip */
+
+.gelap {
+	transform: translateX(100%);
+	border: 5px solid #fff;
+}
+
+.warna-bg {
+	background-color: #333;
+}
+
+.warna-kotak {
+	background-color: #fff;
+}
+
+.warna-bulet {
+	background-color: #333;
+}
+
+.hias.warna-hias {
+	background-color: #fff;
+}
