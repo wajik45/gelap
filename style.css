@@ -4,7 +4,7 @@
 	box-sizing: border-box;
 }
 body {
-	transition: 1s background-color;
+	transition: 700ms background-color;
 }
 .container {
 	width: 100vw;
@@ -22,11 +22,8 @@ body {
 	justify-content: space-between;
 	align-items: center;
 	position: relative;
-	transition: 1s background-color;
+	transition: 700ms background-color;
 	align-self: center;
-}
-.k-bulan, .k-matahari {
-	cursor: pointer;
 }
 .k-bulan {
 	width: 40px;
@@ -41,7 +38,7 @@ body {
 	display: flex;
 }
 .bulan, .matahari {
-	transition: 1s opacity;
+	transition: 700ms opacity;
 }
 .bulan {
 	width: 20px;
@@ -65,7 +62,7 @@ body {
 	height: 50px;
 	background-color: #fff;
 	border-radius: 50%;
-	transition: 1s;
+	transition: 700ms;
 	border: 5px solid #333;
 }
 
@@ -79,7 +76,7 @@ body {
 	border-radius: 50% 50% 50% 50%;
 	top: -7px;
 	left: -7px;
-	transition: 1s background-color;
+	transition: 700ms background-color;
 }
 
 /* sip */
